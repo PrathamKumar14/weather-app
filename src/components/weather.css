@@ -56,3 +56,15 @@ button:focus {
   box-shadow: none;
   outline: none;
 }
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.weather-info {
+  padding: 0 10px;
+  margin: 10px;
+  border: 2px solid #e11d74;
+}
