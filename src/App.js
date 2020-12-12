@@ -17,10 +17,7 @@ function App() {
       `https://api.openweathermap.org/data/2.5/forecast?q=${city},${country}&appid=${process.env.REACT_APP_API_KEY}`
     )
       .then((res) => res.json())
-      .then((data) => {
-        console.log(data);
-        return data;
-      });
+      .then((data) => data);
 
     setWeather({
       data: data,
