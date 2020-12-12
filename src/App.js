@@ -31,33 +31,31 @@ function App() {
       {weather.data !== undefined ? (
         <Weather key={weather.data} data={weather.data} />
       ) : (
-        <div className="form-wrapper">
-          <form onSubmit={handleFormSubmit}>
-            <div className="label-input-cn">
-              <label>Country</label>
-              <input
-                required
-                type="text"
-                placeholder="India"
-                value={country}
-                onChange={(event) => setCountry(event.target.value)}
-              />
-            </div>
-            <div className="label-input-cn">
-              <label>City</label>
-              <input
-                required
-                type="text"
-                placeholder="Delhi"
-                value={city}
-                onChange={(event) => setCity(event.target.value)}
-              />
-            </div>
-            <div className="label-input-cn">
-              <button type="submit">Go</button>
-            </div>
-          </form>
-        </div>
+        <form onSubmit={handleFormSubmit}>
+          <div className="label-input-cn">
+            <label>Country</label>
+            <input
+              required
+              type="text"
+              placeholder="India"
+              value={country}
+              onChange={(event) => setCountry(event.target.value)}
+            />
+          </div>
+          <div className="label-input-cn">
+            <label>City</label>
+            <input
+              required
+              type="text"
+              placeholder="Delhi"
+              value={city}
+              onChange={(event) => setCity(event.target.value)}
+            />
+          </div>
+          <div className="label-input-cn">
+            <button type="submit">Go</button>
+          </div>
+        </form>
       )}
     </div>
   );
