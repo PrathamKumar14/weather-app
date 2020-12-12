@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.form-wrapper {
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+img {
+  filter: drop-shadow(4px 4px 4px rgb(71, 71, 71));
+}
+
+p {
+  margin: 0;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 6px;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #12c2e9;
+  margin: 0;
+  margin: auto;
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+form {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 8px 0;
+  color: #f64f59;
+}
+
+input {
+  width: 250px;
+  padding: 6px 0;
+  border: none;
+  border-bottom: 2px solid#c471ed;
+  font-size: 1rem;
+}
+
+input::placeholder {
+  color: #12c2e9;
+  opacity: 0.4;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 250px;
+  background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+  box-shadow: 4px 4px 4px #a19c9c;
+  padding: 6px 10px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  box-shadow: none;
+}
+
+.label-input-cn {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.wrapper {
+  margin: auto;
+}
+
+.main-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.current-temp {
+  font-size: 2rem;
+  background-color: white;
+  font-family: "Nanum Gothic", sans-serif;
+  position: relative;
+  bottom: 32px;
+  padding: 0 6px;
+  display: inline;
+}
+
+.weather-info {
+  border: 2px solid #c471ed;
+  margin: 20px;
+  text-align: center;
+  padding: 4px;
+  box-shadow: 7px 7px 6px #bfbfbf;
+}
+
+.weather-desc,
+.current-temp {
+  margin: 0;
+}
+
+.weather-desc {
+  text-transform: uppercase;
+  color: gray;
+}
+
+.time {
+  color: gray;
+}
