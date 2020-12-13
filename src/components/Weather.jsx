@@ -2,6 +2,15 @@ import React from "react";
 import "./weather.css";
 
 function Weather(props) {
+  if (props.data.city === undefined) {
+    return (
+      <div>
+        <h1>Oops!! Error :)</h1>
+        <h2>Please check the spelling and try again</h2>
+      </div>
+    );
+  }
+
   return (
     <div className="container">
       <h1>3 days weather forecast report of {props.data.city.name}</h1>

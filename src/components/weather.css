@@ -61,7 +61,8 @@ button:focus {
   outline: none;
 }
 
-h1 {
+h1,
+h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
   color: #e11d74;
