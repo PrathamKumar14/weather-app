@@ -65,9 +65,10 @@ h1,
 h2 {
   font-family: "Poppins", sans-serif;
   text-align: center;
-  color: #e11d74;
+  color: black;
   margin-bottom: 0;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 hr {
@@ -85,35 +86,41 @@ hr {
 }
 
 .weather-info {
+  background-color: black;
+  color: #e11d74;
   padding: 0 10px;
   margin: 10px;
-  border: 2px solid #e11d74;
+  /* border: 2px solid #e11d74; */
   text-align: center;
   margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 6px 6px 4px #c9c9c9;
 }
 
 .current-temp {
-  background-color: white;
-  font-size: 2rem;
+  /* background-color: white; */
+  font-size: 2.5rem;
   letter-spacing: 2px;
   margin: 0;
   font-family: "Poppins", sans-serif;
   position: relative;
-  bottom: 26px;
+  /* bottom: 26px; */
 }
 
 .time {
   margin: 0;
   font-size: 1.3rem;
-  color: gray;
+  color: #e11d74;
 }
 
 img {
-  filter: drop-shadow(4px 4px 4px rgb(116, 116, 116));
+  filter: drop-shadow(4px 4px 4px rgb(90, 90, 90));
 }
 
 .weather-desc {
   font-size: 1.3rem;
   font-family: quicksand;
   font-weight: bold;
+  margin: 0;
+  margin-bottom: 10px;
 }
