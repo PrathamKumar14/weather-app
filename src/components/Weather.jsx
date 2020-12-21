@@ -13,6 +13,7 @@ function Weather(props) {
 
   return (
     <div className="container">
+      <a href="https://twitter.com/prathkum">@Pratham</a>
       <h1>3 days weather forecast report of {props.data.city.name}</h1>
       <hr />
       <div className="main-section">

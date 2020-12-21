@@ -1,6 +1,16 @@
 body {
   overflow-x: hidden;
   background-color: #010416;
+  position: relative;
+}
+
+a {
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .wrapper {
