@@ -21,20 +21,23 @@ form {
 label {
   font-family: quicksand;
   font-size: 1.4em;
+  color: white;
+  text-transform: uppercase;
 }
 
 input {
+  background-color: transparent;
   border: none;
   height: 26px;
   margin-bottom: 10px;
   padding: 4px;
   font-size: 1em;
-  border-bottom: 2px solid black;
+  border-bottom: 4px solid #e11d74;
   transition: all 0.5s;
+  color: white;
 }
 
 input:focus {
-  border-bottom: 2px solid #e11d74;
   outline: none;
 }
 
@@ -45,16 +48,18 @@ input::placeholder {
 button {
   background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
   border: none;
-  margin-top: 20px;
+  margin-top: 26px;
   border-radius: 20px;
   height: 32px;
-  box-shadow: 4px 4px 6px #b9b9b9;
   cursor: pointer;
   transition: 0.5s;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 button:hover {
   box-shadow: none;
+  background: linear-gradient(to left, #cc95c0, #dbd4b4, #7aa1d2);
 }
 
 button:focus {
