@@ -145,3 +145,9 @@ img {
   margin: 0;
   margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 452px) {
+  .weather-info {
+    width: 85%;
+  }
+}
